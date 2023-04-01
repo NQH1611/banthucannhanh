@@ -11,4 +11,8 @@ public class Hello {
     public String hello(){
         return "Hello Word";
     }
+    @GetMapping("/")
+    public String hello2(){
+        return "Hello Word";
+    }
 }
